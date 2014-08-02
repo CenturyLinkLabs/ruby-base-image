@@ -1,5 +1,6 @@
 FROM debian:wheezy
-MAINTAINER 'CenturyLink Labs'
+
+MAINTAINER CenturyLink Labs <clt-labs-futuretech@centurylink.com>
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
   build-essential \
