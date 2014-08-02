@@ -1,9 +1,22 @@
 # Ruby Base Image
 
-A Docker file that creates a Debian-based image with that latest, stable Ruby
-and RubyGems versions installed (both compiled from source).
+Debian-based Docker image containing stable versions of Ruby, RubyGems and
+Bundler.
 
-This image provides no default CMD or ENTRYPOINT -- it is intended to be used
-as the basis for other images requiring Ruby.
+Both Ruby and RubyGems are compiled from source and every effort has been made
+to keep the image size as small as possible. Check the tags on the image to see
+which versions of Ruby are available.
 
-Total image size should be around 360MB.
+Can be used as the base container for your Ruby application by referencing this
+image in the `FROM` line of your `Dockerfile`:
+
+```
+FROM centurylink/ruby-base:2.1.2
+```
+
+Also can be used as an interactive Ruby environment by running the image with
+a shell:
+
+```
+docker run -it centurylink/ruby-base:2.1.2 /bin/bash
+```
