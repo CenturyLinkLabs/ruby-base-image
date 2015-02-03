@@ -15,7 +15,7 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
   && rm -rf /var/lib/apt/lists/*
 
 ENV RUBY_MAJOR 2.0
-ENV RUBY_VERSION 2.0.0-p576
+ENV RUBY_VERSION 2.0.0-p598
 
 RUN echo 'gem: --no-document' >> /.gemrc
 
