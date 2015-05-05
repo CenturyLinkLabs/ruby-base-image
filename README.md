@@ -1,5 +1,7 @@
 # Ruby Base Image
 
+[![](https://badge.imagelayers.io/centurylink/ruby-base.svg)](https://imagelayers.io/?images=centurylink/ruby-base:latest 'Get your own badge on imagelayers.io')
+
 Debian-based Docker image containing stable versions of Ruby, RubyGems and
 Bundler.
 
