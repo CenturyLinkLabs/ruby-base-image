@@ -1,4 +1,8 @@
 # Ruby Base Image
+## NOTE
+
+This repo is no longer being maintained. Users are welcome to fork it, but we make no warranty of its functionality.
+
 
 [![](https://badge.imagelayers.io/centurylink/ruby-base.svg)](https://imagelayers.io/?images=centurylink/ruby-base:latest 'Get your own badge on imagelayers.io')
 
